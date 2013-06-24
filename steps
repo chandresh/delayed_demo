@@ -25,3 +25,10 @@ RAILS_ENV=development script/delayed_job stop
 rake jobs:work ## good for debuging
 
 
+## Before:
+1. UserMailer.home_mail.deliver
+2. @user.export("US")
+
+## After:
+1. UserMailer.delay.home_mail
+2. @user.delay.export("US")
