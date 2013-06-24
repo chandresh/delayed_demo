@@ -66,3 +66,23 @@ class MailSender
 end
 
 
+### Debugging
+
+- add debugger to gemfile
+    #controller
+        debugger
+    # in debugger
+        help
+        help list
+        list
+        next
+        pp @instance_var
+        step
+        l
+        n
+        pp local_var
+        irb
+        continue
+- add pry-rails to gem file
+- logger.info # for production
+
