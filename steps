@@ -1,0 +1,20 @@
+## mailer setup
+gem 'letter_opener'
+rails g mailer UserMailer home_email
+
+controller:
+UserMailer.home_mail.deliver
+
+## delayed_job setup
+gem 'delayed_job_active_record'
+gem 'daemons'
+
+controller:
+UserMailer.delay.home_mail
+
+RAILS_ENV=development script/delayed_job start
+RAILS_ENV=development script/delayed_job stop
+
+rake jobs:work ## good for debuging
+
+
