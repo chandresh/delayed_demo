@@ -7,7 +7,7 @@
     <file path="/routes.rb" changelist="2491d376-e8cc-406a-b440-7b1280b1f056" time="1372032989079" ignored="false" />
     <file path="/welcome_controller.rb" changelist="2491d376-e8cc-406a-b440-7b1280b1f056" time="1372033485172" ignored="false" />
     <file path="/Gemfile" changelist="2491d376-e8cc-406a-b440-7b1280b1f056" time="1372033343475" ignored="false" />
-    <file path="/steps" changelist="2491d376-e8cc-406a-b440-7b1280b1f056" time="1372034049720" ignored="false" />
+    <file path="/steps" changelist="2491d376-e8cc-406a-b440-7b1280b1f056" time="1372034072067" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <file leaf-file-name="steps" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/steps">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="44" selection-start="80" selection-end="80" vertical-scroll-proportion="0.055908512">
+            <state line="17" column="0" selection-start="321" selection-end="321" vertical-scroll-proportion="0.47522235">
               <folding />
             </state>
           </provider>
@@ -553,7 +553,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/steps">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="44" selection-start="80" selection-end="80" vertical-scroll-proportion="0.055908512">
+        <state line="17" column="0" selection-start="321" selection-end="321" vertical-scroll-proportion="0.47522235">
           <folding />
         </state>
       </provider>
