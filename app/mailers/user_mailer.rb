@@ -8,7 +8,7 @@ class UserMailer < ActionMailer::Base
   #
   def home_mail
     @greeting = "Hi"
-
+    sleep 2.5
     mail to: "to@example.org"
   end
 end

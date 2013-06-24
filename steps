@@ -32,3 +32,37 @@ rake jobs:work ## good for debuging
 ## After:
 1. UserMailer.delay.home_mail
 2. @user.delay.export("US")
+
+###################
+
+## resque
+
+brew install redis
+redis-server /usr/local/etc/redis.conf
+
+## create a rake task at: lib/tasks/resque.rake
+
+require "resque/tasks"
+
+task "resque:setup" => :environment
+
+## run
+rake resque:work QUEUE='*'
+
+### Our controller:
+
+Resque.enqueue(MailSender, "")
+
+
+## Worker: app/workers/mail_sender.rb :
+
+class MailSender
+  @queue = :mail_queue
+
+  def self.perform(args)
+    UserMailer.home_mail.deliver
+  end
+
+end
+
+
