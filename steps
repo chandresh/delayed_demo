@@ -1,5 +1,7 @@
 ## mailer setup
 gem 'letter_opener'
+## add to config/environments/development.rb
+config.action_mailer.delivery_method = :letter_opener
 rails g mailer UserMailer home_email
 
 controller:

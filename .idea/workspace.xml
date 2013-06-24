@@ -7,6 +7,7 @@
     <file path="/routes.rb" changelist="2491d376-e8cc-406a-b440-7b1280b1f056" time="1372032989079" ignored="false" />
     <file path="/welcome_controller.rb" changelist="2491d376-e8cc-406a-b440-7b1280b1f056" time="1372033485172" ignored="false" />
     <file path="/Gemfile" changelist="2491d376-e8cc-406a-b440-7b1280b1f056" time="1372033343475" ignored="false" />
+    <file path="/steps" changelist="2491d376-e8cc-406a-b440-7b1280b1f056" time="1372034049720" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="welcome_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="30" selection-start="97" selection-end="123" vertical-scroll-proportion="0.08386277">
+            <state line="3" column="30" selection-start="97" selection-end="123" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -53,7 +54,16 @@
       <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="55" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.0">
+            <state line="36" column="20" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="steps" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/steps">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="44" selection-start="80" selection-end="80" vertical-scroll-proportion="0.055908512">
               <folding />
             </state>
           </provider>
@@ -82,6 +92,7 @@
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
+        <option value="$PROJECT_DIR$/steps" />
       </list>
     </option>
   </component>
@@ -512,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="55" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="22" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
@@ -535,7 +539,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="30" selection-start="97" selection-end="123" vertical-scroll-proportion="0.08386277">
+        <state line="3" column="30" selection-start="97" selection-end="123" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="20" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steps">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="44" selection-start="80" selection-end="80" vertical-scroll-proportion="0.055908512">
           <folding />
         </state>
       </provider>
